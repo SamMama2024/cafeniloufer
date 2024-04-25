@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.check-label {
+    display: flex;
+}
+
+.label1 a {
+    display: block;
+    text-decoration: none;
+    color: #eeb5dd;
+    margin-top: 1px;
+}
+
+.btsel {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btsel1 img {
+    width: 70px;
+}
+
+.btsel2 a {
+    text-decoration: none;
+    color: #eeb5dd;
+}
+
+.btsel2 {
+    padding-left: 20px;
+    /* display: block; */
+}
+
+.btsel2 span {
+    color: #eeb5dd;
+    text-decoration: line-through;
+}
+.btsel2 a:hover{
+    color:brown
+}
+.btsel2 button:hover{
+    background-color: #6ac917;
+}
+
+#strng {
+    margin-left: 200px;
+}
+
+.btsel3 img {
+    width: 290px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+

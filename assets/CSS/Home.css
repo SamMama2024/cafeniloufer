@@ -1,0 +1,588 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"); 
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* headeer and footer */
+
+
+#header{
+  background-color:#ffb84d;
+  position:fixed;
+  padding:20px;
+  display: flex;
+  flex-direction: row;
+  margin-left:0px;
+  width: 100vw;
+  z-index: 5;
+  
+}
+.navbar{
+  background-color: #ffb84d;
+}
+
+#list-group-item{
+  font-size: 13px;
+}
+
+#list-group-items{
+  font-size: 13px;
+  color: black;
+}
+
+
+#footer{
+  padding:0px;
+  display: flex;
+  flex-direction: row;
+  margin-left:-12px;
+  width: 100vw;
+  position: relative;
+  z-index:-1;
+}
+#footer-two{
+  padding:0px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+#footerimage{
+  margin-left:-10%;
+  padding: 20px;
+  height: 72px;
+  width:240px;
+}
+
+
+#search{
+  background-color: #ffb84d;  
+  border-color: #ffb84d;
+}
+
+.imgabsimage{
+  height:100px;
+  width:170px;
+  position: fixed;
+  top:80px;
+  margin-left: 41%;
+  z-index: 0;
+  
+}
+
+
+
+#contentheader{
+  background-image: url("/Assests/uploads/images/bg-n-1_dd81bdd9-6dd5-4641-815b-b491af7d1e3b-1.webp");
+  color: white;
+  margin-top: 80px;
+  padding-left: 20px;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  position:relative;
+  z-index: -1;
+
+}
+#list-group-item{
+  color: white;
+}
+
+.top-header{
+  margin-top: -43px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  z-index: 666;
+  position:fixed;
+  background-color: white;
+  padding: 6px;
+}
+
+.top-icons{
+  display: flex;
+  flex-direction: row;
+  padding: 7px;
+}
+
+.top-icons>a{
+  margin-left: 10px;
+  margin-right:10px;
+  padding-left: 10px;
+  
+}
+
+
+#footercard{
+  color:white;
+  border-color: rgb(36, 35, 35);
+  text-decoration: none;
+  font-size: 14px;
+  z-index:0;
+}
+.list-group-item{
+  margin-left: -13px;
+}
+
+/*  header and footer*/
+
+
+
+
+        /* Home page */
+
+#first-name{
+    position: absolute;
+    top: -450px;
+    margin-left:-250px ;
+    font-family: Dancing Script, 
+}
+#second-name{
+    position: absolute;
+    top: -400px;
+    margin-left: -270px;
+    font-family: Dancing Script, cursive;
+    font-size: 100px;
+    font-weight: 400;
+}
+#third-name{
+  position: absolute;
+  top: -150px;
+  margin-left: -200px;
+  font-family: Dancing Script, cursive;
+  font-size: 20px;
+}
+
+#four-name{
+  position: absolute;
+  top: -450px;
+  margin-left:-250px ;
+  font-family: Dancing Script, 
+}
+#five-name{
+  position: absolute;
+  top: -300px;
+  margin-left: -270px;
+  font-family: Dancing Script, cursive;
+  font-size: 100px;
+  font-weight: 400;
+
+}
+#six-name{
+position: absolute;
+top: -150px;
+margin-left: -200px;
+font-family: Dancing Script, cursive;
+font-size: 30px;
+}
+
+#seven-name{
+  position: absolute;
+  top: -450px;
+  margin-left:-250px ;
+  font-family: Dancing Script, 
+}
+#eigth-name{
+  position: absolute;
+  top: -280px;
+  margin-left: -160px;
+  font-family: Dancing Script, cursive;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+#thirteen-name{
+  position: absolute;
+  top: -350px;
+  margin-left: -250px;
+  /* font-family: Dancing Script, cursive; */
+  font-size: 40px;
+  font-weight: 400;
+}
+#nine-name{
+position: absolute;
+top: -150px;
+margin-left: -200px;
+font-family: Dancing Script, cursive;
+font-size: 40px;
+}
+
+
+#ten-name{
+  position: absolute;
+  top: -450px;
+  margin-left:-250px ;
+  font-family: Dancing Script, 
+}
+#eleven-name{
+  position: absolute;
+  top: -300px;
+  margin-left: -270px;
+  font-family: Dancing Script, cursive;
+  font-size: 100px;
+  font-weight: 400;
+
+}
+#twelve-name{
+position: absolute;
+top: -150px;
+margin-left: -200px;
+font-family: Dancing Script, cursive;
+font-size: 40px;
+}
+
+
+#explore-button>button{
+  width: 100px;
+  padding: 10px;
+  margin-left: -700px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  /* position: absolute; */
+  
+}
+
+
+
+/* Animations */
+span{
+    animation: firstname  0.5s;
+    animation-fill-mode: forwards;
+} 
+
+
+
+
+#first-name{animation-timing-function: linear;}
+@keyframes firstname {
+    from {left: -50px;}
+    to {left: 150px;}
+  }
+ h2{
+    animation: secondname  0.5s;
+    animation-fill-mode: forwards;
+   } 
+  #second-name{animation-timing-function: linear;}
+    @keyframes secondname {
+        from {left: -70px;}
+        to {left: 100px;}
+  }
+   p{
+    animation: thirdname  0.5s;
+    animation-fill-mode: forwards;
+
+  } 
+  #third-name{animation-timing-function: linear;}
+    @keyframes thirdname {
+        from {left: -50px;}
+        to {left: 50px;}
+  }
+
+
+
+
+
+#crosal-one{
+  position: absolute;
+  top: -230px;
+  left: 440px;
+  /* text-align: center; */
+  font-size: 50px;
+font-family: Dancing Script, cursive;
+  
+}
+#crosal-two{
+  position: absolute;
+  /* text-align: center; */
+  top: -130px;
+  left: 400px;
+  font-size: 20px;
+}
+#crosal-three,#crosal-five{
+  position: absolute;
+  top: -240px;
+  left: 440px;
+  /* text-align: center; */
+  font-size: 50px;
+font-family: Dancing Script, cursive;
+  
+}
+#crosal-four,#crosal-six{
+  position: absolute;
+  /* text-align: center; */
+  top: -130px;
+  left: 400px;
+  font-size: 20px;
+}
+#crosal-seven{
+  position: absolute;
+  top: -240px;
+  left: 440px;
+  /* text-align: center; */
+  font-size: 50px;
+font-family: Dancing Script, cursive;
+}
+#crosal-eight{
+  position: absolute;
+  /* text-align: center; */
+  top: -160px;
+  left: 400px;
+  font-size: 20px;
+}
+
+/* #crosal-five{
+  position: absolute;
+  top: -220px;
+  left: 440px;
+  /* text-align: center; */
+  /* font-size: 50px; */
+/* font-family: Dancing Script, cursive; */
+  
+
+/* #crosal-six{ */
+  /* position: absolute; */
+  /* text-align: center; */
+  /* top: -120px; */
+  /* left: 400px; */
+  /* font-size: 20px; */
+
+
+  /* laptop home page */
+
+  @media screen and (min-width:769px) and (max-width:1025px){
+  
+    /* header */
+.pt-1{
+  width: 100%;
+}
+#header{
+  width: 100%;
+}
+.imgabsimage{
+  height: 70px;
+  width: 100px;
+  transform: translate(50px);
+}
+#contentheader{
+  width: 100%;
+}
+    /* home page */
+#button11{
+  margin-left: 50px;
+}
+#button22{
+  margin-right: 50px;
+}
+#samimg>img{
+  height: 700px;
+}
+#second-name{
+  font-size: 70px;
+  transform: translate(50px);
+  margin-top: -30px;
+}
+#third-name{
+transform: translate(50px);
+margin-top: -70px;
+width: 50%;
+}
+#five-name{
+  font-size: 80px;
+  transform: translate(80px);
+}
+#six-name{
+  transform: translate(20px);
+/* margin-top: -50px; */
+width: 70%;
+}
+
+#thirteen-name{
+  transform: translate(80px);
+}
+#eigth-name{
+  transform: translate(80px);
+
+}
+#nine-name{
+  width: 70%;
+  transform: translate(80px);
+}
+#eleven-name{
+  transform: translate(80px);
+
+}
+#twelve-name{
+  transform: translate(80px);
+}
+#crosal-one{
+  transform: translate(-130px);
+}
+#crosal-three{
+  transform: translate(-130px);
+}
+#crosal-four{
+  margin-top: -30px;
+}
+#crosal-five{
+  transform: translate(-130px);
+}
+#crosal-six{
+  margin-top: -30px;
+}
+#crosal-seven{
+  transform: translate(-130px);
+}
+#crosal-eight{
+  margin-top: -20px;
+}
+
+}
+   
+
+          /* tablet home page */
+
+ @media screen and (min-width:427px) and (max-width:768px){
+
+ 
+    /* header */
+    .pt-1{
+      width: 100%;
+    }
+    #header{
+      width: 100%;
+    }
+    .imgabsimage{
+      height: 70px;
+      width: 100px;
+    }
+    #contentheader{
+      width: 100%;
+    }
+        /* home page */
+    #button11{
+      margin-left: 50px;
+    }
+    #button22{
+      margin-right: 50px;
+    }
+    #samimg>img{
+      height: 700px;
+    }
+    #second-name{
+      font-size: 60px;
+      transform: translate(70px);
+      margin-top: -30px;
+    }
+    #third-name{
+    transform: translate(50px);
+    margin-top: -70px;
+    width: 60%;
+    }
+    #five-name{
+      font-size: 60px;
+      transform: translate(100px);
+    }
+    #six-name{
+      transform: translate(50px);
+    /* margin-top: -50px; */
+    width: 70%;
+    }
+    
+    #thirteen-name{
+      transform: translate(80px);
+    }
+    #eigth-name{
+      transform: translate(80px);
+      font-size: 80px;
+    
+    }
+    #nine-name{
+      width: 70%;
+      transform: translate(80px);
+    }
+    #eleven-name{
+      transform: translate(100px);
+    
+    }
+    #twelve-name{
+      transform: translate(80px);
+    }
+    #crosal-one{
+      transform: translate(-230px);
+    }
+    #crosal-three{
+      transform: translate(-230px);
+    }
+    #crosal-four{
+      margin-top: -30px;
+      width: 620px;
+      transform: translate(-100px);
+
+    }
+    #crosal-five{
+      transform: translate(-230px);
+    }
+    #crosal-six{
+      margin-top: -30px;
+      width: 650px;
+      transform: translate(-100px);
+    }
+    #crosal-seven{
+      transform: translate(-230px);
+    }
+    #crosal-eight{
+      margin-top: -20px;
+      width: 620px;
+      transform: translate(-100px);
+    }
+    #explore-button{
+      margin-left: 100px;
+    }
+    #matter-three{
+      transform: translate(-100px);
+    }
+    #TeaMama{
+    display: none;
+    }
+ 
+ }
+
+
+
+
+
+  /* moblie home page */
+  @media screen and (max-width:426px){
+
+/* header */
+
+.pt-1{
+  width: 70%;
+}
+#header{
+  width: 100%;
+}
+#contentheader{
+  width: 100%;
+}
+#moving-home{
+  display: none;
+}
+#matter-three{
+  transform: translate(-140px);
+}
+#scroll{
+  display: none;
+}
+.imgabsimage{
+  height: 50px;
+  width: 100px;
+  transform: translate(-30px);
+}
+
+
+
+  /* header */
+  }

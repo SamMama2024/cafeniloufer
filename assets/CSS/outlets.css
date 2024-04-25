@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+/*  */
+.card{
+    border:none;
+}
+#starc{
+    text-align: justify;
+}
+#starc>h2{
+    font-size:30px;
+    margin-left: 0px;
+    
+}
+#starc>h4{
+    font-size: 15px;
+}
+#starc>p{
+    font-size: 20px;
+}
+#starc>a{
+    font-size: 15px;
+}
+
+
+ 
+/* mobile view */
+
+@media screen and (max-width:426px){
+    #steyn>img{
+        width:800px;
+        padding:10px 50px;
+    }
+    #starc{
+        text-align: justify;
+        margin-left: -100px;
+    }
+    #starc>h2{
+        font-size:50px;
+        margin-left: 0px;
+        
+    }
+    #starc>h4{
+        font-size: 40px;
+    }
+    #starc>p{
+        font-size: 35px;
+    }
+    #starc>a{
+        font-size: 25px;
+    }
+    #rachin>img{
+        width:800px;
+    }
+    #patidar>img{
+        width:800px;
+    }
+    #fergusion>img{
+        width:800px;
+    }
+
+}
+
+/* tab media queries */
+
+@media screen and (min-width:427px) and (max-width:768px){
+
+    #starc{
+        text-align: justify;
+        margin-left: -100px;
+    }
+    #starc>h2{
+        font-size:40px;
+        margin-left: 0px;
+        
+    }
+    #starc>h4{
+        font-size: 30px;
+    }
+    #starc>p{
+        font-size: 20px;
+    }
+    #starc>a{
+        font-size: 20px;
+    }
+}
+
+
+
